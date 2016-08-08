@@ -1,0 +1,81 @@
+<?php
+
+return [
+
+    /**
+     *
+     * Shared translations.
+     *
+     */
+    'title' => 'Fenke Installer',
+    'next' => 'Next Step',
+    'finish' => 'Install',
+    'back'  =>  'Back Step',
+
+
+    /**
+     *
+     * Home page translations.
+     *
+     */
+    'welcome' => [
+        'title'   => 'Fenke Installer',
+        'message' => 'Welcome to the setup Fenke.',
+    ],
+
+
+    /**
+     *
+     * Requirements page translations.
+     *
+     */
+    'requirements' => [
+        'title' => 'Requirements',
+    ],
+
+
+    /**
+     *
+     * Permissions page translations.
+     *
+     */
+    'permissions' => [
+        'title' => 'Permissions',
+    ],
+
+
+    /**
+     *
+     * Environment page translations.
+     *
+     */
+    'environment' => [
+        'title' => 'Environment Settings',
+        'save' => 'Save .env',
+        'success' => 'Your .env file settings have been saved.',
+        'errors' => 'Unable to save the .env file, Please create it manually.',
+    ],
+
+
+    /**
+     *
+     * Final page translations.
+     *
+     */
+    'final' => [
+        'title' => 'Finished',
+        'finished' => 'Database connect success.',
+        'exit' => 'Configure school info',
+    ],
+
+    /**
+     *
+     * Config page translates
+     *
+     */
+    'config' => [
+        'title' => 'School config',
+        'finished' => 'Config the school information.',
+        'exit' => 'Configure school info',
+    ],
+];

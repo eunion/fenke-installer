@@ -1,0 +1,21 @@
+{
+  "name": "eunion/fenke-installer",
+  "description": "Fenke web installer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kify",
+      "email": "923382771@qq.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Eunion\\FenkeInstaller\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "minimum-stability": "stable"
+}

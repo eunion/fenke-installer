@@ -14,7 +14,7 @@
         <a class="button" href="javascript:history.go(-1)">
             {{ trans('messages.back') }}
         </a>
-        <a class="button" href="{{ route('LaravelInstaller::permissions') }}">
+        <a class="button" href="{{ route('FenkeInstaller::permissions') }}">
         {{ trans('messages.next') }}
         </a>
     </div>

@@ -5,7 +5,7 @@
     @if (session('message'))
     <p class="alert">{{ session('message') }}</p>
     @endif
-    <form method="post" action="{{ route('LaravelInstaller::environmentSave') }}">
+    <form method="post" action="{{ route('FenkeInstaller::environmentSave') }}">
         <textarea class="textarea" name="envConfig">{{ $envConfig }}</textarea>
         {!! csrf_field() !!}
         <div class="buttons buttons--right">
@@ -17,7 +17,7 @@
         <a class="button" href="javascript:history.go(-1)">
             {{ trans('messages.back') }}
         </a>
-        <a class="button" href="{{ route('LaravelInstaller::requirements') }}">
+        <a class="button" href="{{ route('FenkeInstaller::requirements') }}">
             {{ trans('messages.next') }}
         </a>
     </div>

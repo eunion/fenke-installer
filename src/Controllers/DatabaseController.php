@@ -30,7 +30,6 @@ class DatabaseController extends Controller
     {
         $response = $this->databaseManager->migrateAndSeed();
 
-        return redirect()->route('FenkeInstaller::final')
-                         ->with(['message' => $response]);
+        return view('vendor.installer.database')->with(['message' => $response]);
     }
 }

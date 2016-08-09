@@ -15,7 +15,7 @@
             </a>
         </div>
     @else
-        <form method="post" action="{{ route('LaravelInstaller::config') }}" id="config">
+        <form method="post" action="{{ route('FenkeInstaller::config') }}" id="config">
             <div class="form-group">
                 <label for="exampleInputEmail1">School Name</label>
                 <input type="text" class="form-control" id="exampleInputEmail1" placeholder="School Name">

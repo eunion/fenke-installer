@@ -20,5 +20,8 @@ composer update
 After that, include the service provider within config/app.php.
 
 'providers' => [
-    Eunion\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
+    Eunion\FenkeInstaller\Providers\LaravelInstallerServiceProvider::class,
 ];
+
+
+php artisan vendor:publish --provider="Eunion\FenkeInstaller\Providers\LaravelInstallerServiceProvider"

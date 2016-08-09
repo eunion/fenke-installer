@@ -3375,7 +3375,7 @@ label {
     margin-bottom: -.21875em
 }
 
-input[type=email],input[type=password],input[type=text],textarea {
+input[type=email],input[type=password],input[type=text],textarea,.form-control {
     display: block;
     max-width: 100%;
     padding: .3375em 0 .3375em .2em;
@@ -3385,13 +3385,13 @@ input[type=email],input[type=password],input[type=text],textarea {
 }
 
 @media (min-width:600px) {
-    input[type=email],input[type=password],input[type=text],textarea {
+    input[type=email],input[type=password],input[type=text],textarea,.form-control {
         font-size: calc(12px + 8 * ((100vw - 600px) / 540))
     }
 }
 
 @media (min-width:1140px) {
-    input[type=email],input[type=password],input[type=text],textarea {
+    input[type=email],input[type=password],input[type=text],textarea,.form-control {
         font-size: 16px;
         margin-bottom: .5140625em
     }

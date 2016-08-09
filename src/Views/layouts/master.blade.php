@@ -17,7 +17,7 @@
         </div>
         <ul class="step">
           <li class="step__divider"></li>
-          <li class="step__item {{ isActive('FenkeInstaller::finish') }}"><i class="step__icon final"></i></li>
+          <li class="step__item {{ isActive('FenkeInstaller::final') }}"><i class="step__icon final"></i></li>
           <li class="step__divider"></li>
           <li class="step__item {{ isActive('FenkeInstaller::config') }}"><i class="step__icon config"></i></li>
           <li class="step__divider"></li>

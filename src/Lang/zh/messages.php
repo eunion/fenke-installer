@@ -66,6 +66,9 @@ return [
         'title' => '安装完成',
         'finished' => '数据库创建成功.',
         'exit' => '完成安装',
+        'success'   =>  '配置成功',
+        'fail'      =>  '配置失败',
+        'not_empty' =>  '表单内容不能有空选项'
     ],
 
     /**
@@ -77,5 +80,16 @@ return [
         'title' => '学校配置',
         'finished' => '设置学校信息',
         'exit' => '保存学校信息',
+        'school_name'   =>  '学校名称',
+        'school_addr'   =>  '学校地址',
+        'school_type'   =>  '学校类型',
+        'school_contact'=>  '联系方式'
     ],
+
+    'type'  =>  [
+        'primary'   =>  '小学',
+        'junior'    =>  '初中',
+        'senior'    =>  '高中',
+        'college'   =>  '大学'
+    ]
 ];

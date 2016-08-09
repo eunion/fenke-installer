@@ -66,6 +66,9 @@ return [
         'title' => 'Finished',
         'finished' => 'Database connect success.',
         'exit' => 'Configure school info',
+        'success'   =>  'Setup success',
+        'fail'      =>  'Setup fail',
+        'not_empty' =>  'Form content can\'t be empty'
     ],
 
     /**
@@ -77,5 +80,16 @@ return [
         'title' => 'School config',
         'finished' => 'Config the school information.',
         'exit' => 'Configure school info',
+        'school_name'   =>  'School Name',
+        'school_addr'   =>  'School Addr',
+        'school_type'   =>  'School Type',
+        'school_contact'=>  'School Contact',
     ],
+
+    'type'  =>  [
+        'primary'   =>  'primary',
+        'junior'    =>  'junior',
+        'senior'    =>  'senior',
+        'college'   =>  'college'
+    ]
 ];

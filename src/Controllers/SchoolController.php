@@ -32,6 +32,9 @@ class SchoolController extends Controller
             return back()->with(['message' => trans('messages.final.not_empty')])->withInput();
         }else{
             $school_config_model = app(config('installer.config.model'));
+            if($school_config_model::first()){
+                $school_config_model::truncate();
+            }
             $model = new $school_config_model;
             $model->school_name = $request->get('school_name');
             $model->addr = $request->get('addr');

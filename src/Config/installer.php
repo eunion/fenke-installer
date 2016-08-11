@@ -36,6 +36,6 @@ return [
     ],
 
     'config'    =>  [
-        'model' =>  App\Model\SchoolConfig::class
+        'model' =>  App\Model\Config::class
     ]
 ];
